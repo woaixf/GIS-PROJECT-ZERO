@@ -1,26 +1,19 @@
-# vue-leaflet-tianditu
+# gis-factory
 
-> A Vue.js project
-
-## 加载Leaflet依赖
-
-``` bash
-npm install leaflet --save
+## Project setup
+```
+npm install
 ```
 
-## 引入Leaflet依赖
-
-``` bash
-import L from 'leaflet'
-require('leaflet/dist/leaflet.css')
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
-## 引入天地图
-
-``` bash
-import Provider from '@/components/chinatmsproviders'
+### Compiles and minifies for production
+```
+npm run build
 ```
 
-## 相关解释地址
-
-https://juejin.im/post/5d1f06605188255d545789b9
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
